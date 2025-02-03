@@ -8,6 +8,9 @@
     --brown-800: hsl(14, 45%, 36%);
     --rose-800: hsl(332, 51%, 32%);
     --rose-50: hsl(330, 100%, 98%);
+
+    /* Font Family */
+    --title: 'young-serif', sans-serif;;
 }
 
 @font-face {
@@ -35,4 +38,79 @@ html {
 body {
     font-size: 1.6rem;
     font-family: 'outfit', sans-serif;
+}
+
+.content__img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Hero */
+.hero {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.hero__title {
+    font-family: var(--title);
+    color: var(--stone-900);
+    margin-bottom: 20px;
+}
+
+.hero__paragraph {
+    color: var(--stone-600);
+    margin-bottom: 20px;
+}
+
+.hero__preparation-time {
+    background-color: var(--rose-50);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.hero__preparation-time p {
+    color: var(--rose-800);
+    font-size: var(--title);
+    font-weight: 700;
+}
+
+.hero__preparation-time ul {
+    margin-top: 20px;
+    padding: 0 30px;
+    color: var(--rose-800);
+}
+
+.hero__preparation-time ul li {
+    color: var(--stone-600);
+    margin-bottom: 10px;
+}
+
+.hero__preparation-time ul li span {
+    font-weight: bold;
+}
+
+/* Ingredients */
+.ingredients {
+    border-bottom: 1px solid var(--stone-150);
+    width: 80%;
+    margin: 40px auto;
+}
+
+.ingredients__title {
+    font-family: var(--title);
+    color: var(--rose-800);
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+.ingredients__list {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.ingredients__list li {
+    color: var(--stone-600);
+    margin-bottom: 10px;
 }
