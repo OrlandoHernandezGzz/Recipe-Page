@@ -1,3 +1,5 @@
 # Frontend Mentor - Recipe page
 
-![Design preview for the Recipe page coding challenge](./preview.jpg)
+Finished project, this is the result:
+
+![Page by Orlando Hernández](./Recipe-page.gif)
